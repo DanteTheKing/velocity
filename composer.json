@@ -1,0 +1,27 @@
+{
+    "name": "velocity/velocity",
+    "description": "Zero-pain PHP deployment and debugging tool",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Your Name"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "symfony/console": "^7.0",
+        "symfony/yaml": "^7.0",
+        "symfony/process": "^7.0",
+        "symfony/filesystem": "^7.0"
+    },
+    "bin": ["bin/velocity"],
+    "autoload": {
+        "psr-4": {
+            "Velocity\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "echo 'Tests coming soon!'"
+    }
+}
